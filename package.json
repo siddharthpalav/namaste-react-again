@@ -1,0 +1,47 @@
+{
+  "name": "namaste-react-again",
+  "version": "1.0.0",
+  "description": "This is Namaste React Again by Sid",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthpalav/namaste-react-again.git"
+  },
+  "keywords": [],
+  "author": "Sid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharthpalav/namaste-react-again/issues"
+  },
+  "homepage": "https://github.com/siddharthpalav/namaste-react-again#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "parcel": "^2.15.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@reduxjs/toolkit": "^2.9.0",
+    "@tailwindcss/postcss": "^4.1.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.11.2"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
